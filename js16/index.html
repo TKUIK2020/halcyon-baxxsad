@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue@2.5.3/dist/vue.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <button v-on:click="toggle=!toggle">{{toggle?'Скрыть':'Показать'}}</button>
+        <div v-show='toggle'><img src="a.png" width="726" height="420"></div>
+
+        <script>
+            new Vue({
+                el: '#app',
+                data() {
+                    return {
+                        toggle: false
+                    }
+                },
+            })
+        </script>
+
+</body>
+
+</html>
