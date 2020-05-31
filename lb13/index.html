@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <title>Modal</title>
+</head>
+
+<body>
+  <div class="container-fluid" style="margin-bottom: 25px; margin-top: 25px;">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 title">Featured</div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-6 text">
+        <h4>Special title treatment</h4>
+        <p>
+          With supporting text below as a natural lead-in to additional
+          content.
+        </p>
+        <button class="button" onclick="viewBlock()">Go somewhere</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal" class="container modal1" style="max-width: 600px; margin-left: 390px; padding: 10px;" hidden>
+    <div class="row modalTitle" style="border-top: none; margin: 0px;">
+      <h4>Modal title</h4>
+      <button class="backspace" onclick="hideBlock()">
+        <svg class="bi bi-backspace" width="2em" height="2em" viewBox="0 0 13 13" fill="currentColor">
+          <path fill-rule="evenodd" d="M5.83 5.146a.5.5 0 000 .708l5 5a.5.5 0 00.707-.708l-5-5a.5.5 0 00-.708 0z"
+            clip-rule="evenodd" />
+          <path fill-rule="evenodd" d="M11.537 5.146a.5.5 0 010 .708l-5 5a.5.5 0 01-.708-.708l5-5a.5.5 0 01.707 0z"
+            clip-rule="evenodd" />
+        </svg>
+      </button>
+    </div>
+    <div class="modal2">Modal body text goes here</div>
+    <div class="modal2" style="align-items: center;">
+      <button class="button2" onclick="hideBlock()">
+        Close
+      </button>
+      <button class="button">Save changes</button>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

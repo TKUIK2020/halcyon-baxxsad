@@ -1,0 +1,58 @@
+.title {
+  border: rgb(100, 100, 100) solid 1px;
+  padding: 4px;
+  background-color: rgb(211, 211, 211);
+}
+
+.text {
+  border-top: none;
+  padding: 10px;
+  border: 1px solid rgb(100, 100, 100);
+}
+
+.button {
+  width: auto;
+  height: auto;
+  background-color: rgb(42, 139, 236);
+  color: white;
+  text-align: center;
+  padding: 5px;
+  border: 0px;
+  border-radius: 5px;
+}
+
+.modal1 {
+  border: 1px solid rgb(100, 100, 100);
+  border-radius: 0px;
+  margin: 0px;
+  width: 200px;
+}
+
+.modal2 {
+  width: 100%;
+  min-height: 0px;
+  max-height: auto;
+  border-top: 1px solid rgb(100, 100, 100);
+  padding: 10px;
+  display: flex;
+}
+
+.backspace {
+  background-color: rgb(255, 255, 255);
+  width: 50px;
+  border: none;
+  margin-left: auto;
+  height: 0px;
+}
+
+.button2 {
+  margin-right: 10px;
+  margin-left: auto;
+  background-color: rgb(167, 165, 165);
+  color: white;
+  text-align: center;
+  padding: 5px;
+  border: 0px;
+  border-radius: 5px;
+}
+}
